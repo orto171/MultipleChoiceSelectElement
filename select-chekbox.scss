@@ -1,0 +1,28 @@
+.selectMultipleChoice {
+	z-index: 500;
+	width: 200px;
+	color: #636b78;
+	position: relative;
+  }
+  
+.overSelect {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+  
+#options {
+	display: none;
+	background-color: white;
+	position: absolute;
+	width: 199px;
+	border-radius: 2px;
+
+	div {
+		color: #636b78;
+		padding-left: 4px;
+	}
+
+}
